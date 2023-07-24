@@ -1,5 +1,12 @@
-
-
 .navbar-brand {
-    padding: 20px;
+  padding: 20px;
+}
+
+.form-label {
+  font-size: 30px;
+  padding: 20px 0px 0px 20px;
+}
+
+.p-2 {
+  margin-left: 20px;
 }
