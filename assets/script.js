@@ -21,9 +21,6 @@ document.addEventListener("DOMContentLoaded", () => {
       .then((data) => {
         localStorage.setItem("weatherData", JSON.stringify(data));
         displayWeatherData(data);
-      })
-      .catch((error) => {
-        console.error("Error fetching weather data:", error);
       });
   }
 
