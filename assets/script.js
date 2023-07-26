@@ -1,4 +1,3 @@
-// Wait for the DOM to be fully loaded
 document.addEventListener("DOMContentLoaded", () => {
   const apiKey = "5ee0f90324871a428363e7fb02fef1f8";
   const weatherDataContainer = document.getElementById("weatherData");
