@@ -20,9 +20,25 @@
     </nav>
     <script src="./assets/script.js"></script>
 
-    <div class="mb-3">
-      <label for="FormControlInput1" class="form-label">Search for a City:</label>
-      <input type="search" class="d-flex p-2" id="FormControlInput1" placeholder="Search...">
-    </div>
+    <form>
+      <div class="mb-3">
+        <label id="city" for="FormControlInput1" class="form-label"
+          >Search for a City:</label
+        >
+        <input
+          type="search"
+          class="d-flex p-2"
+          id="FormControlInput1"
+          placeholder="City Name..."
+        />
+      </div>
+      <div class="row mt-4">
+        <div class="col-md-8 offset-md-2">
+          <div id="weatherData"></div>
+        </div>
+      </div>
+      <button type="button" class="btn btn-primary" id="fetchWeather">Search</button>
+    </form>
+    <script src="./assets/script.js"></script>
   </body>
 </html>
